@@ -1,3 +1,4 @@
+#crack the code and get the flag broo........
 import hashlib
 import os
 import sys
