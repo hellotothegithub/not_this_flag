@@ -49,9 +49,9 @@ def crack_hash(target, wordlist_path, hash_type="sha256", salt=""):
 
 # --- Configuration ---
 # Example: SHA-256 of salt "secret_" + password "123456"
-demo_hash = "679f2913e003780360a0f443b0922e379058b8f2d5778a4878a7c2957908b8b7"
+demo_hash = "67sff2913e003df6f0922e379058b8f2d5778a4878a7c295fd8b8b7"
 dictionary_file = "passwords.txt" # You would create this file locally
-applied_salt = "FLAG{salt_pass_key}"
+applied_salt = "salt_applied"
 
 # To run this, you would uncomment the line below:
 # crack_hash(demo_hash, dictionary_file, salt=applied_salt)
